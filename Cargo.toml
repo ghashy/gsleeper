@@ -1,0 +1,13 @@
+[package]
+name = "gsleeper"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+gstreamer = { version = "0.22.5", features = ["v1_22"] }
+gstreamer-play = { version = "0.22.0", features = ["v1_22"] }
+anyhow = "1.0.86"
+system_shutdown = "4.0.1"
+clap = { version = "4.5.7", features = ["derive"] }
+duration-str = "0.11.2"
+

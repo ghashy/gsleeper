@@ -15,7 +15,6 @@ use system_shutdown::shutdown;
 use gstreamer as gst;
 use gstreamer_play::{Play, PlayMessage, PlaySignalAdapter, PlayVideoRenderer};
 
-mod duration_parse;
 mod run;
 
 fn main_loop(uri: &str, duration: Duration) -> Result<(), Error> {

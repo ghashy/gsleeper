@@ -84,6 +84,13 @@ struct Args {
 }
 
 fn example_main() {
+    let _awake = keepawake::Builder::default()
+        .display(false)
+        .idle(true)
+        .sleep(true)
+        .create()
+        .expect("Failed to keep computer awake.");
+
     let args = Args::parse();
 
     let path = args

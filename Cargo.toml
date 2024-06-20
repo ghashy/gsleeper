@@ -10,4 +10,5 @@ anyhow = "1.0.86"
 system_shutdown = "4.0.1"
 clap = { version = "4.5.7", features = ["derive"] }
 duration-str = "0.11.2"
+keepawake = "0.5.1"
 
